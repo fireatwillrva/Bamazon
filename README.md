@@ -10,7 +10,7 @@ In order to run this application, you should have the MySQL database already set
 
 ### Customer Interface Setup
 
-In order to get your Bamazon customer online, you'll need to connect to a port in [MAMP](https://www.mamp.info/en/). Click on the **Start Servers** button then click the **Open WebStart page** button. Your port information will be listed on the left side under *My SQL*. Take that information and replace the connection parameters on line 7 (as shown below) with your port info.
+In order to get your Bamazon customer online, you'll need to connect to a port in [MAMP](https://www.mamp.info/en/). Click on the **Start Servers** button then click the **Open WebStart page** button. Your port information will be listed on the left side under *My SQL*. Take that information and replace the connection parameters on line 7 of bamazonCustomer.js (as shown below) with your port info.
 
 ``` Javascript
 	host: 'localhost',
